@@ -2,8 +2,8 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
+API_ID = int(os.environ.get("30929822"))
+API_HASH = os.environ.get("8586e9580c6480b65d23150cec959506")
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 app = Client(
